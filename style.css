@@ -45,7 +45,7 @@ body {
 
 .navbar a.active,
 .navbar a:hover{
-    background: lightblue;
+    background: black;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -56,3 +56,4 @@ body {
     display: flex;
     align-items: center;
 }
+

@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #ADD8E6;
+    background: white;
 
 }
 
@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: white;
+    background: lightblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,4 +33,26 @@ body {
     font-weight: 600;
     pointer-events: none;
     
+}
+
+.navbar a {
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a.active,
+.navbar a:hover{
+    background: lightblue;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }

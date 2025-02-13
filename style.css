@@ -9,8 +9,8 @@
 }
 
 body {
-    background: white;
-
+    background: #DBEEF7;
+    color: black;
 }
 
 .header {
@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: lightblue;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,5 +55,38 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
+    padding: 0 3%;
 }
 
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    background: blue;
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}

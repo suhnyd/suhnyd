@@ -238,3 +238,21 @@ body {
 .googledrive:hover {
     transform: scale(1.1);
 }
+
+.contact {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 60px 10% 0;
+    justify-content: space-between;
+    background: #DBEEF7;
+    text-align: center;
+}
+
+.contact-content h1{
+    font-size: 40px;
+}
+
+.contact-content h2 {
+    font-size: 20px;
+}

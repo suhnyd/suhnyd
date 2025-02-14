@@ -158,8 +158,17 @@ body {
     font-size: 60px;
 }
 
+.interest-content p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 30px 0;
+    word-spacing: 5px;
+    line-height: 40px;
+}
+
 .img-vball{
-    width: 500px;
+    width: 600px;
     position: relative;
     left: 0;
 }
@@ -172,11 +181,17 @@ body {
     width: 550px;
     position: relative;
     left: 30%;
+}
 
+.img-bball img{
+    width: 100%;
 }
 
 .img-team {
-    width: 400px;
-    position: relative;
-    
+    width: 600px;
+    position: center;
+}
+
+.img-team img {
+    width: 100%;
 }

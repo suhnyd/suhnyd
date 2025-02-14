@@ -158,14 +158,18 @@ body {
     font-size: 60px;
 }
 
-.img-vball {
+.img-vball{
     width: 500px;
     position: relative;
     left: 0;
 }
 
+.img-vball img {
+    width: 100%;
+}
+
 .img-bball {
-    width: 450px;
+    width: 550px;
     position: relative;
     left: 30%;
 
@@ -173,5 +177,6 @@ body {
 
 .img-team {
     width: 400px;
-    justify-content: center;
+    position: relative;
+    
 }

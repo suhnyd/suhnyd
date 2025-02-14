@@ -195,3 +195,46 @@ body {
 .img-team img {
     width: 100%;
 }
+
+.portfolio {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 60px 10% 0;
+    justify-content: space-between;
+}
+
+.portfolio h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 50px;
+}
+
+.portfolio h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 50px;
+}
+
+.googledrive {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background: blue;
+    border-radius: 40px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .5s ease;
+}
+
+.googledrive:hover {
+    transform: scale(1.1);
+}

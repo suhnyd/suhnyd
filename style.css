@@ -249,9 +249,9 @@ body {
 }
 
 .contact {
+    margin: auto;
     width: 100%;
     height: 50vh;
-    display: flex;
     padding: 60px 10% 0;
     justify-content: space-between;
     background: #DBEEF7;
